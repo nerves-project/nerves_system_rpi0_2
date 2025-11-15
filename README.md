@@ -1,3 +1,9 @@
+<!--
+  SPDX-FileCopyrightText: 2018 Frank Hunleth
+  SPDX-FileCopyrightText: 2019 Justin Schneck
+  SPDX-FileCopyrightText: 2019 Matt Ludwigs
+  SPDX-License-Identifier: CC-BY-4.0
+-->
 # Raspberry Pi Zero 2 W and 3 A+ (64-bit)
 
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi0_2.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi0_2)
