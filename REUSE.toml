@@ -34,7 +34,7 @@ SPDX-License-Identifier = "GPL-2.0-or-later"
 path = [
  "linux/*",
  "linux-6.12.defconfig",
- "ramoops.dts"
+ "ramoops-overlay.dts"
 ]
 precedence = "override"
 SPDX-FileCopyrightText = "Various"
