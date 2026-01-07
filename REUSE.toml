@@ -4,6 +4,7 @@ version = 1
 path = [
  ".formatter.exs",
  ".github/workflows/ci.yml",
+ ".github/CODEOWNERS",
  ".gitignore",
  "NOTICE",
  "REUSE.toml",
