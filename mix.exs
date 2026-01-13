@@ -1,7 +1,7 @@
 defmodule NervesSystemRpi02.MixProject do
   use Mix.Project
 
-  @github_organization "fhunleth"
+  @github_organization "nerves-project"
   @app :nerves_system_rpi0_2
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
@@ -101,7 +101,7 @@ defmodule NervesSystemRpi02.MixProject do
       links: %{
         "GitHub" => @source_url,
         "REUSE Compliance" =>
-          "https://api.reuse.software/info/github.com/fhunleth/nerves_system_rpi0_2"
+          "https://api.reuse.software/info/github.com/nerves-project/nerves_system_rpi0_2"
       }
     ]
   end
