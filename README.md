@@ -7,8 +7,8 @@
 # Raspberry Pi Zero 2 W and 3 A+ (64-bit)
 
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi0_2.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi0_2)
-[![CI](https://github.com/fhunleth/nerves_system_rpi0_2/actions/workflows/ci.yml/badge.svg)](https://github.com/fhunleth/nerves_system_rpi0_2/actions/workflows/ci.yml)
-[![REUSE status](https://api.reuse.software/badge/github.com/fhunleth/nerves_system_rpi0_2)](https://api.reuse.software/info/github.com/fhunleth/nerves_system_rpi0_2)
+[![CI](https://github.com/nerves-project/nerves_system_rpi0_2/actions/workflows/ci.yml/badge.svg)](https://github.com/nerves-project/nerves_system_rpi0_2/actions/workflows/ci.yml)
+[![REUSE status](https://api.reuse.software/badge/github.com/nerves-project/nerves_system_rpi0_2)](https://api.reuse.software/info/github.com/nerves-project/nerves_system_rpi0_2)
 
 *This is the v1 maintenance branch. It is still maintained and is the
 recommended branch for most users. Active development is in the `main` branch.*
