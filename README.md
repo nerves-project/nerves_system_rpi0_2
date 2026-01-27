@@ -10,6 +10,9 @@
 [![CI](https://github.com/fhunleth/nerves_system_rpi0_2/actions/workflows/ci.yml/badge.svg)](https://github.com/fhunleth/nerves_system_rpi0_2/actions/workflows/ci.yml)
 [![REUSE status](https://api.reuse.software/badge/github.com/fhunleth/nerves_system_rpi0_2)](https://api.reuse.software/info/github.com/fhunleth/nerves_system_rpi0_2)
 
+*This is the v1 maintenance branch. It is still maintained and is the
+recommended branch for most users. Active development is in the `main` branch.*
+
 This is the base Nerves System configuration for the Raspberry Pi Zero 2 W with
 the USB port running in gadget mode. It is similar to
 [nerves_system_rpi3a](https://github.com/nerves-project/nerves_system_rpi3a)
