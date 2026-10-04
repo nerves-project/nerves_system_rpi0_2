@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   get-br-dependencies:
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
       - uses: gridpoint-com/actions-nerves-system@v1
@@ -26,13 +26,13 @@ jobs:
           otp-version: ${{ env.OTP_VERSION }}
           elixir-version: ${{ env.ELIXIR_VERSION }}
           nerves-bootstrap-version: ${{ env.NERVES_BOOTSTRAP_VERSION }}
-          push-to-download-site: true
+          push-to-download-site: false
           download-site-bucket-uri: ${{ vars.DOWNLOAD_SITE_BUCKET_URI }}
           aws-role: ${{ secrets.AWS_ROLE }}
           aws-region: ${{ vars.AWS_REGION }}
   build-system:
     needs: [get-br-dependencies]
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
       - uses: gridpoint-com/actions-nerves-system@v1
@@ -45,7 +45,7 @@ jobs:
   deploy-system:
     needs: [build-system]
     if: github.ref_type == 'tag'
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
