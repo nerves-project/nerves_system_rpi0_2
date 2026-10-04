@@ -2,9 +2,8 @@ defmodule NervesSystemRpi02.MixProject do
   use Mix.Project
 
   @github_organization "electra-research"
-  @github_repo "nerves_system_rpi0_2"
-  @app :electra_rpi0_2
-  @source_url "https://github.com/#{@github_organization}/#{@github_repo}"
+  @app :nerves_system_rpi0_2
+  @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -46,7 +45,7 @@ defmodule NervesSystemRpi02.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "#{@github_organization}/#{@github_repo}"}
+        {:github_releases, "#{@github_organization}/#{@app}"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,

@@ -6,10 +6,12 @@
 -->
 # Raspberry Pi Zero 2 W and 3 A+ (64-bit)
 
-> **Electra fork:** this is `nerves_system_rpi0_2` published as `electra_rpi0_2`,
-> with only these changes on top of the upstream release tag:
+> **Electra fork:** this keeps the package name `nerves_system_rpi0_2`; the
+> `-electra.<n>` version suffix and the GitHub org are what distinguish it from
+> upstream. Only these changes are on top of the upstream release tag:
 >
 > - openocd (with the BCM2835 GPIO bitbang driver), used to flash the STM32 over SWD
+> - artifacts are downloaded from electra-research's GitHub releases
 > - CI runs on GitHub-hosted runners and doesn't push to a download site
 >
 > Keep this diff small. To update, rebase the `electra` branch onto the next
